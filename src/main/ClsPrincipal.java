@@ -20,7 +20,7 @@ public class ClsPrincipal {
     ImplementsOperaciones operaciones = new ImplementsOperaciones();
     
     public void iniciar(){
-        System.out.println("Ingrese su nombsfsdfsdfsdfsdfsdre y también apellido: ");
+        System.out.println("Ingrese  su nombre: ");
         nombrePersona = sc.nextLine();
         System.out.println("Ingrese una cantidad de dinero: ");
         cantidad = sc.nextDouble();
