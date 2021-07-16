@@ -40,17 +40,17 @@ public class ClsPrincipal {
            System.out.println("3. Yuanes.");
            System.out.println("4. Deseo salir.");
             
-           System.out.println("¿A qué desea convertirlo?");
+           System.out.println("¿A qué desea convdddddddddddertirlo?");
            opcion = sc.nextInt();
            
            switch(opcion){
                case 1:
                    resultado = operaciones.convertirADolares(cantidad);
-                   System.out.println("El resultado es: " + resultado);
+                   System.out.println("El resultddddddddddddado es: " + resultado);
                    break;
                case 2:
                     resultado = operaciones.convertirAEuros(cantidad);
-                   System.out.println("El resultado es: " + resultado);
+                   System.out.println("El resulddddddddddtado es: " + resultado);
                    break;
                 case 3:
                     resultado = operaciones.convertirAYuanes(cantidad);
