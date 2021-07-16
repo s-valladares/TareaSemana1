@@ -46,15 +46,15 @@ public class ClsPrincipal {
            switch(opcion){
                case 1:
                    resultado = operaciones.convertirADolares(cantidad);
-                   System.out.println("El resultado de la conversión de es: " + resultado);
+                   System.out.println("El resultado es: " + resultado);
                    break;
                case 2:
                     resultado = operaciones.convertirAEuros(cantidad);
-                   System.out.println("El resultado de la conversión es: " + resultado);
+                   System.out.println("El resultado es: " + resultado);
                    break;
                 case 3:
                     resultado = operaciones.convertirAYuanes(cantidad);
-                   System.out.println("El resultado de la conversión es: " + resultado);
+                   System.out.println("El resultado es: " + resultado);
                    break;
                 case 4:
                    break;
