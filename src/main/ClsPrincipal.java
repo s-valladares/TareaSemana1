@@ -20,7 +20,7 @@ public class ClsPrincipal {
     ImplementsOperaciones operaciones = new ImplementsOperaciones();
     
     public void iniciar(){
-        System.out.println("Ingrese su nombre y también apellido: ");
+        System.out.println("Ingrese  su nombre: ");
         nombrePersona = sc.nextLine();
         System.out.println("Ingrese una cantidad de dinero: ");
         cantidad = sc.nextDouble();
@@ -46,15 +46,15 @@ public class ClsPrincipal {
            switch(opcion){
                case 1:
                    resultado = operaciones.convertirADolares(cantidad);
-                   System.out.println("El resultado de la conversión de es: " + resultado);
+                   System.out.println("El resultado es: " + resultado);
                    break;
                case 2:
                     resultado = operaciones.convertirAEuros(cantidad);
-                   System.out.println("El resultado de la conversión es: " + resultado);
+                   System.out.println("El resultado es: " + resultado);
                    break;
                 case 3:
                     resultado = operaciones.convertirAYuanes(cantidad);
-                   System.out.println("El resultado de la conversión es: " + resultado);
+                   System.out.println("El resultado es: " + resultado);
                    break;
                 case 4:
                    break;
